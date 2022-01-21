@@ -12,7 +12,7 @@ export default class Dashboard extends Component {
   muted2=()=>{
     console.log("salom")
     this.setState({
-      muted:!this.state.muted
+      muted2:!this.state.muted2
     })
   }
   render() {
@@ -103,7 +103,7 @@ export default class Dashboard extends Component {
         <video className={style.back2} src={back2} autoPlay loop muted={this.state.muted2}></video>
        
 <div className={style.blue}>
-  
+  <div className={style.logo1} onClick={this.muted2}>{this.state.muted2?<i className="fa fa-volume-off"></i>:<i className="fa fa-volume-up"></i>}</div>
 </div>
             </div>
         )
