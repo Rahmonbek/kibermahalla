@@ -16,7 +16,7 @@ export default class Header extends Component {
         >
           <Container className={style.conta}>
             <Navbar.Brand className={style.brandnavbar}>
-              <img src={xalq} className={style.xalqrasm}></img>
+              {/* <img src={xalq} className={style.xalqrasm}></img> */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

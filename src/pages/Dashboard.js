@@ -3,12 +3,24 @@ import Header from './Header'
 import rasm from "../img/bosh1.png"
 import style from "../css/Dashboard.module.css";
 import { Col, Container, Row } from 'react-bootstrap';
-
+import back1 from '../videos/a.mp4'
+import back2 from '../videos/b.mp4'
 export default class Dashboard extends Component {
-    render() {
+  state={
+    muted2:true,
+  }  
+  muted2=()=>{
+    console.log("salom")
+    this.setState({
+      muted:!this.state.muted
+    })
+  }
+  render() {
+    
         return (
             <div>
                 <Header/>
+         <video className={style.back1} loop src={back1} autoPlay muted></video>
                 <div className={style.head}>
          
             <Row>
@@ -26,9 +38,9 @@ export default class Dashboard extends Component {
               >
 
 <div className={style.logoLeft}>
-    <div className={style.logo} style={{top:'-50px'}}><i className="fa fa-youtube"></i></div>
-    <div className={style.logo}><i className="fa fa-facebook"></i></div>
-    <div className={style.logo}  style={{top:'50px', left:'-100px'}}><i className="fa fa-instagram"></i></div>
+    <div className={style.logo} style={{top:'-50px'}}><a href="#"><i className="fa fa-youtube"></i></a></div>
+    <div className={style.logo}><a href="#"><i className="fa fa-facebook"></i></a></div>
+    <div className={style.logo}  style={{top:'50px', left:'-100px'}}><a href="#"><i className="fa fa-instagram"></i></a></div>
 </div>
 
 
@@ -72,9 +84,11 @@ export default class Dashboard extends Component {
                 className={style.head1}
               >
                    <div className={style.logoRight}>
-    <div className={style.logo} style={{top:'-50px', left:'100px'}}><i className="fa fa-phone"></i></div>
-    <div className={style.logo}><i className="fa fa-telegram"></i></div>
-    <div className={style.logo}  style={{top:'50px', left:'0px'}}><i className="fa fa-mail"></i></div>
+    <div className={style.logo} style={{top:'-50px', left:'100px'}}>
+      <a href="#"><i className="fa fa-phone"></i></a>
+      </div>
+    <div className={style.logo}><a href="#"><i className="fa fa-telegram"></i></a></div>
+    <div className={style.logo}  style={{top:'50px', left:'0px'}}><a href="#"><i className="fa fa-envelope-open"></i></a></div>
 </div>
                 {/* <h1>Mahalla</h1> */}
                 {/* <p>
@@ -86,8 +100,11 @@ export default class Dashboard extends Component {
             </Row>
           
         </div>
+        <video className={style.back2} src={back2} autoPlay loop muted={this.state.muted2}></video>
        
-
+<div className={style.blue}>
+  
+</div>
             </div>
         )
     }

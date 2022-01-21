@@ -9,11 +9,11 @@
   left: 0px;
   z-index: 2;
   width: 100%;
-  background-color: rgb(12, 8, 38);
+  /* background-color: rgba(12, 8, 38, 0.837); */
   margin-bottom: 0px;
 }
 .navabrs {
-  background-color: rgb(12, 8, 38);
+  /* background-color: rgba(12, 8, 38, 0.837); */
   width: 100%;
   margin-left: 0px;
 }
