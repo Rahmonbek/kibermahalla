@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+
 
 function Loader() {
   return (
@@ -13,4 +13,4 @@ function Loader() {
   );
 }
 
-export default App;
+export default Loader;
