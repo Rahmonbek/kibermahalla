@@ -5,14 +5,22 @@ import style from "../css/Dashboard.module.css";
 import { Col, Container, Row } from 'react-bootstrap';
 import back1 from '../videos/a.mp4'
 import back2 from '../videos/b.mp4'
+import Dashnews from './Dashnews';
 export default class Dashboard extends Component {
   state={
     muted2:true,
+    muted3:true,
   }  
   muted2=()=>{
-    console.log("salom")
+
     this.setState({
       muted2:!this.state.muted2
+    })
+  }
+  muted3=()=>{
+
+    this.setState({
+      muted3:!this.state.muted3
     })
   }
   render() {
@@ -105,6 +113,13 @@ export default class Dashboard extends Component {
 <div className={style.blue}>
   <div className={style.logo1} onClick={this.muted2}>{this.state.muted2?<i className="fa fa-volume-off"></i>:<i className="fa fa-volume-up"></i>}</div>
 </div>
+<Dashnews/>
+<video className={style.back3} src={back2} autoPlay loop muted={this.state.muted3}></video>
+       
+       <div className={style.blue3}>
+         <div className={style.logo1} onClick={this.muted3}>{this.state.muted3?<i className="fa fa-volume-off"></i>:<i className="fa fa-volume-up"></i>}</div>
+       </div>
+       
             </div>
         )
     }
