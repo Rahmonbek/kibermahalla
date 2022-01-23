@@ -5,7 +5,10 @@ import style from "../css/Dashboard.module.css";
 import { Col, Container, Row } from 'react-bootstrap';
 import back1 from '../videos/a.mp4'
 import back2 from '../videos/b.mp4'
+import back3 from '../videos/c.mp4'
 import Dashnews from './Dashnews';
+import Dashreyting from './Dashreyting';
+import Vakantsiya from './Vakantsiya';
 export default class Dashboard extends Component {
   state={
     muted2:true,
@@ -114,12 +117,13 @@ export default class Dashboard extends Component {
   <div className={style.logo1} onClick={this.muted2}>{this.state.muted2?<i className="fa fa-volume-off"></i>:<i className="fa fa-volume-up"></i>}</div>
 </div>
 <Dashnews/>
-<video className={style.back3} src={back2} autoPlay loop muted={this.state.muted3}></video>
+<video className={style.back3} src={back3} autoPlay loop muted={this.state.muted3}></video>
        
        <div className={style.blue3}>
          <div className={style.logo1} onClick={this.muted3}>{this.state.muted3?<i className="fa fa-volume-off"></i>:<i className="fa fa-volume-up"></i>}</div>
        </div>
-       
+       <Dashreyting/>
+       <Vakantsiya/>
             </div>
         )
     }

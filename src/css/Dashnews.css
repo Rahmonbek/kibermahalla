@@ -115,6 +115,7 @@
 .dashnew .imgs img{width:100%;}
 .dashnew .imgdiv{ height:100%; width:90%; margin-left: 5%; display: flex;  align-items: center; justify-content: center; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; background-color: rgba(12, 8, 38); 
 padding:10px;}
+.dashnew .imgdiv:hover img{transform: scale(1.2, 1.2);}
 .dashnew .you{margin-top:20px; width:90%; padding:10px; display: flex; align-items: center; justify-content: center; margin-left: 5%; margin-bottom: 20px;  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; background-color: rgba(12, 8, 38); }
 .dashnew .vid{width:100%; height:300px;}
 header,
@@ -143,6 +144,8 @@ header,
 .dashnew .card {
 	outline: var(--outline-width) solid hotpink;
     border-color:transparent;
+background-color: transparent;
+padding-top:50px;
 }
 
 .dashnew .card__content {
@@ -187,7 +190,7 @@ header,
 .dashnew h1 {
 	font-weight: 300;
 	font-size: 2em;
-    margin-top:20px;
+    margin-top:0px;
 }
 
 .dashnew h2 {

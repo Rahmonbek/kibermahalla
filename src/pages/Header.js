@@ -14,9 +14,10 @@ export default class Header extends Component {
          
           className={style.navabrs}
         >
-          <Container className={style.conta}>
+          <div className={style.conta}>
             <Navbar.Brand className={style.brandnavbar}>
               {/* <img src={xalq} className={style.xalqrasm}></img> */}
+              <h4>"Mahallarda etnosportni rivojlantirish"<br/> elektron platformasi</h4>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -33,17 +34,17 @@ export default class Header extends Component {
                 exact
                 activeStyle={{color:'rgb(3, 247, 255)'}}
                   className="navbar"
-                  to="/kitoblar"
+                  to="/tadbirlar"
                 >
-                  Kitoblar
+                  Tadbirlar
                 </NavLink>
                 <NavLink
                 exact
                 activeStyle={{color:'rgb(3, 247, 255)'}}
                   className="navbar"
-                  to="/yangiliklar"
+                  to="/reyting"
                 >
-                  Yangiliklar
+                  Reyting
                 </NavLink>
                 <NavLink
                 exact
@@ -51,7 +52,7 @@ export default class Header extends Component {
                   className="navbar"
                   to="/fotolavhalar"
                 >
-                  Foto lavhalar
+                  Vakantsiyalar
                 </NavLink>
                 <NavLink
                 exact
@@ -59,11 +60,11 @@ export default class Header extends Component {
                   className="navbar"
                   to="/videolavhalar"
                 >
-                  Video lavhalar
+                  Xarita
                 </NavLink>
               </Nav>
             </Navbar.Collapse>
-          </Container>
+          </div>
         </Navbar>
       </div>
     );
