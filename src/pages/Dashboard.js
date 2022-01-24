@@ -9,6 +9,8 @@ import back3 from '../videos/c.mp4'
 import Dashnews from './Dashnews';
 import Dashreyting from './Dashreyting';
 import Vakantsiya from './Vakantsiya';
+import Xarita from './Xarita';
+import Footer from './Footer';
 export default class Dashboard extends Component {
   state={
     muted2:true,
@@ -124,6 +126,8 @@ export default class Dashboard extends Component {
        </div>
        <Dashreyting/>
        <Vakantsiya/>
+       <Xarita/>
+       <Footer/>
             </div>
         )
     }
