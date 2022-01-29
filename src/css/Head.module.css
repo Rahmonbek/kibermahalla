@@ -15,11 +15,11 @@
   width: 100%;
   /* background-color: rgba(12, 8, 38, 0.837); */
   margin-bottom: 0px;
-  background-color: rgba(12, 8, 38);
+  background-color: #011751a8;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .navabrs {
-  background-color: rgba(12, 8, 38);
+  background-color: #011751a8;
   /* background-color: rgba(12, 8, 38, 0.837); */
   width: 110%;
 padding-left:40px;

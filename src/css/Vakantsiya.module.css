@@ -3,7 +3,7 @@
 .cad div{box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     padding:20px; margin-top: 20px; color:white;
 }
-.modal{background-color: rgba(12, 8, 38); color:white;}
+.modal{background-color: #011751; color:white;}
 .in{ width:100%; padding:10px; font-size: 16px; border:none; outline: none; box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;}
 .modal p{margin-top: 20px; font-size:20px;}
 .cad h3{border-bottom: 1px solid white; padding-bottom: 10px;margin-bottom: 10px;}
@@ -13,15 +13,15 @@
     display:block; width:300px; margin:auto;
     margin-bottom:10px;
     margin-top:20px;
-    color:rgba(12, 8, 38);
+    color:#011751;
     background-color: white;
      font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
-.hamma:hover{color:rgba(12, 8, 38) !important;
+.hamma:hover{color:#011751 !important;
     background-color: white !important;
      font-weight: bold !important;} 
-.cad:hover div{background-color: white; color:rgba(12, 8, 38)}
-.cad:hover h3, h5{border-color: rgba(12, 8, 38);}
-.cad:hover .hamma{ background-color:rgba(12, 8, 38);color:white; }
+.cad:hover div{background-color: white; color:#011751}
+.cad:hover h3, h5{border-color: #011751;}
+.cad:hover .hamma{ background-color:#011751;color:white; }
