@@ -79,66 +79,6 @@ export default class Vakantsiya extends Component {
                           <button className={style.hamma} onClick={this.openModal}>Murojaat yuborish</button>
                           </div>
                           </Col>
-                          <Col  className={style.cad} lg={4} md={6} sm={12}>
-                         <div>
-                         <h3>
-                             MFY binosiga qorovul kerak
-                         </h3>
-                         <h5>Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY</h5>
-                         <p><b>Talablar:</b> slanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdi</p>
-                          <button className={style.hamma} onClick={this.openModal}>Murojaat yuborish</button>
-                          </div>
-                          </Col>
-                          <Col  className={style.cad} lg={4} md={6} sm={12}>
-                         <div>
-                         <h3>
-                             MFY binosiga qorovul kerak
-                         </h3>
-                         <h5>Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY</h5>
-                         <p><b>Talablar:</b> slanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdi</p>
-                          <button className={style.hamma} onClick={this.openModal}>Murojaat yuborish</button>
-                          </div>
-                          </Col>
-                          <Col  className={style.cad} lg={4} md={6} sm={12}>
-                         <div>
-                         <h3>
-                             MFY binosiga qorovul kerak
-                         </h3>
-                         <h5>Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY</h5>
-                         <p><b>Talablar:</b> slanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdi</p>
-                          <button className={style.hamma} onClick={this.openModal}>Murojaat yuborish</button>
-                          </div>
-                          </Col>
-                          <Col  className={style.cad} lg={4} md={6} sm={12}>
-                         <div>
-                         <h3>
-                             MFY binosiga qorovul kerak
-                         </h3>
-                         <h5>Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY</h5>
-                         <p><b>Talablar:</b> slanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdi</p>
-                          <button className={style.hamma} onClick={this.openModal}>Murojaat yuborish</button>
-                          </div>
-                          </Col>
-                          <Col  className={style.cad} lg={4} md={6} sm={12}>
-                         <div>
-                         <h3>
-                             MFY binosiga qorovul kerak
-                         </h3>
-                         <h5>Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY</h5>
-                         <p><b>Talablar:</b> slanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdi</p>
-                          <button className={style.hamma} onClick={this.openModal}>Murojaat yuborish</button>
-                          </div>
-                          </Col>
-                          <Col  className={style.cad} lg={4} md={6} sm={12}>
-                         <div>
-                         <h3>
-                             MFY binosiga qorovul kerak
-                         </h3>
-                         <h5>Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY</h5>
-                         <p><b>Talablar:</b> slanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdislanvnslsn snsknsdskn sdn sdn sn s son dsin snsoisni dsodnso ndsdi</p>
-                          <button className={style.hamma} onClick={this.openModal}>Murojaat yuborish</button>
-                          </div>
-                          </Col>
                           
                       </Row>
 

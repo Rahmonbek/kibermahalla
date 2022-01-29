@@ -114,12 +114,7 @@ this.setState({
           <div className={style.logo}><a target="_blank" href="https://t.me/Etnosport1"><i className="fa fa-telegram"></i></a></div>
           <div className={style.logo}  style={{top:'50px', left:'0px'}}><a target="_blank" href="mailto: etnosport5@gmail.com"><i className="fa fa-envelope-open"></i></a></div>
       </div>
-                      {/* <h1>Mahalla</h1> */}
-                      {/* <p>
-                        O'qishda har bir narsada bo'lgani kabi, biz harakatsizlikdan
-                        azoblanamiz va hayot uchun emas, balki maktab uchun o'qish.
-                      </p>
-                      <a target="_blank" href="tel: +998930820372">Biz bilan bog'lanish</a> */}
+                     
                     </Col>
                   </Row>
                 

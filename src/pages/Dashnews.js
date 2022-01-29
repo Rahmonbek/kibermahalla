@@ -32,9 +32,10 @@ export default class Dashnews extends Component {
     <li className="card" id="card_1">
 			<div className="card__content">
 				<div className="gh">
-                <h1>Kiber sport va yoshlar </h1>
+                <h1>Etnosport va yoshlar </h1>
 					<h2>Buxoro viloyati Qorovulbozor tumani Imom-Buxoriy mahalla fuqarolar yig'ini</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Loresit amet consectetur adipisicing elit .Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. vLorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+					<p>Mahalamizdagi yoshlar o'rtasida "Etnosport va yoshlar" tadbiri o'tqazildi. Bu tadbirda yoshlarimiz o'rtasida etnosportning ko'plab turlari (kurash, chillak, arqon tortish va boshqalar) bo'yicha musobaqalar o'tqazilib g'oliblar mahalla tomonidan ko'plab sovg'alar va faxriy yorliqlar bilan taqdirlandi. Shuningdek tadbirda otalar o'rtasida arqon tortish va onalar o'rtasida besh tosh o'yinlari bo'yicha musobaqalar ham bo'lib o'tdi. Tadbir turli kuy-qo'shiqlar va qiziqarli chiqishlar bilan ajoyib tarzda o'tdi.
+          </p>
 					{/* <p><a href="#top" className="btn btn--accent">Read more</a></p> */}
 				</div>
 				<figure>
@@ -58,7 +59,7 @@ export default class Dashnews extends Component {
                   itemClass="carousel-item-padding-40-px"
                 >
                 <div className="imgdiv">
-                    <img src={xalq}/>
+                    <img src="https://storage.kun.uz/source/1/30.05.2016oyin2.jpg"/>
                 </div>
                 
                 <div className="imgdiv">
@@ -86,7 +87,7 @@ export default class Dashnews extends Component {
                           rel: 0,
                         },
                       }}
-                      video="xDZzmhaiZfE"
+                      video="ZajLOrKMeQY"
                       className="vid"
                       autoplay={true}
                       muted={true}

@@ -42,9 +42,25 @@ export default class Header extends Component {
                 exact
                 activeStyle={{color:'rgb(3, 247, 255)'}}
                   className="navbar"
+                  to="/tadbirlar"
+                >
+                  Yangiliklar
+                </NavLink>
+                <NavLink
+                exact
+                activeStyle={{color:'rgb(3, 247, 255)'}}
+                  className="navbar"
+                  to="/tadbirlar"
+                >
+                  Tanlovlar
+                </NavLink>
+                <NavLink
+                exact
+                activeStyle={{color:'rgb(3, 247, 255)'}}
+                  className="navbar"
                   to="/reyting"
                 >
-                  Reyting
+                  Statistika
                 </NavLink>
                 <NavLink
                 exact
@@ -52,16 +68,24 @@ export default class Header extends Component {
                   className="navbar"
                   to="/fotolavhalar"
                 >
-                  Vakantsiyalar
+                  Sport va sportchilar
                 </NavLink>
-                <NavLink
+                {/* <NavLink
+                exact
+                activeStyle={{color:'rgb(3, 247, 255)'}}
+                  className="navbar"
+                  to="/fotolavhalar"
+                >
+                  Vakantsiyalar
+                </NavLink> */}
+                {/* <NavLink
                 exact
                 activeStyle={{color:'rgb(3, 247, 255)'}}
                   className="navbar"
                   to="/videolavhalar"
                 >
                   Xarita
-                </NavLink>
+                </NavLink> */}
               </Nav>
             </Navbar.Collapse>
           </div>

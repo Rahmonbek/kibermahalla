@@ -22,124 +22,53 @@ export default class Dashreyting extends Component {
                     </li>
                     <li>
                         <p className={style.p1}>
-                            1-o'rin
+                            2-o'rin
                         </p>
                         
                         <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
+                            Andijon viloyati Pop tumani Tinchlik MFY
                         </p>
                         <p className={style.p3}>
-                            95 %
+                            90 %
                         </p>
                     </li>
                     <li>
                         <p className={style.p1}>
-                            1-o'rin
+                            3-o'rin
                         </p>
                         
                         <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
+                            Toshkent Shahar Yakkasaroy tumani Yakkasaroy MFY
                         </p>
                         <p className={style.p3}>
-                            95 %
+                            93 %
                         </p>
                     </li>
                     <li>
                         <p className={style.p1}>
-                            1-o'rin
+                            4-o'rin
                         </p>
                         
                         <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
+                            Qashqadaryo viloyati Muborak tumani Vatanparvar MFY
                         </p>
                         <p className={style.p3}>
-                            95 %
+                            85 %
                         </p>
                     </li>
                     <li>
                         <p className={style.p1}>
-                            1-o'rin
+                            5-o'rin
                         </p>
                         
                         <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
+                            Surxandaryo viloyati Denov tumani Rohat MFY
                         </p>
                         <p className={style.p3}>
-                            95 %
+                            84.5 %
                         </p>
                     </li>
-                    <li>
-                        <p className={style.p1}>
-                            1-o'rin
-                        </p>
-                        
-                        <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
-                        </p>
-                        <p className={style.p3}>
-                            95 %
-                        </p>
-                    </li>
-                    <li>
-                        <p className={style.p1}>
-                            1-o'rin
-                        </p>
-                        
-                        <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
-                        </p>
-                        <p className={style.p3}>
-                            95 %
-                        </p>
-                    </li>
-                    <li>
-                        <p className={style.p1}>
-                            1-o'rin
-                        </p>
-                        
-                        <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
-                        </p>
-                        <p className={style.p3}>
-                            95 %
-                        </p>
-                    </li>
-                    <li>
-                        <p className={style.p1}>
-                            1-o'rin
-                        </p>
-                        
-                        <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
-                        </p>
-                        <p className={style.p3}>
-                            95 %
-                        </p>
-                    </li>
-                      <li>
-                        <p className={style.p1}>
-                            1-o'rin
-                        </p>
-                        
-                        <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
-                        </p>
-                        <p className={style.p3}>
-                            95 %
-                        </p>
-                    </li>
-                    <li>
-                        <p className={style.p1}>
-                            1-o'rin
-                        </p>
-                        
-                        <p className={style.p2}>
-                            Buxoro viloyati Qorovulbozor tumani Imom Buxoriy MFY
-                        </p>
-                        <p className={style.p3}>
-                            95 %
-                        </p>
-                    </li>
+                   
                 </ul>
                 <button className={style.hamma}>Hammasini ko'rish</button>
                 </Container>
