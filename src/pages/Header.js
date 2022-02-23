@@ -17,7 +17,7 @@ export default class Header extends Component {
           <div className={style.conta}>
             <Navbar.Brand className={style.brandnavbar}>
               {/* <img src={xalq} className={style.xalqrasm}></img> */}
-              <h4>"Mahallarda etnosportni rivojlantirish"<br/> elektron platformasi</h4>
+              <h4>"Mahallarda etnosportni rivojlantirish" elektron platformasi</h4>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
