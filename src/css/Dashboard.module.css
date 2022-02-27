@@ -119,9 +119,10 @@
       .logo:hover:after{background-color: white;}
     .logo:hover a{color:#0341ed}
     .back1{width:100%; height:121vh; position: absolute; top:-20vh; left:0; z-index:-1;}
-    .back2{width:100%; height:121vh; position: absolute; top:80vh; left:0; z-index:-2;}
     .back3{width:100%; height:121vh; z-index:-2;}
     .blue{width:100%; height:101vh;background-color: #0341eda8; position: relative;}
+    .back2{width:100%; height:121vh; z-index:-2;}
+    
     .blue3{width:100%; height:121vh;background-color: #0341eda8; position: relative; top:-122vh;}
 
 .logo1{width:50px; height:50px; font-size: 30px; z-index: 5678; 
